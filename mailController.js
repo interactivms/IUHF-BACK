@@ -16,18 +16,18 @@ exports.makeMail = async (req, res) => {
         const output = `
             <html>
             <body>
-            <p>Nombre: ${req.body.email} </p>
-            <p>Nombre: ${req.body.email} </p>
+            <p>Nombre: ${req.body.name} </p>
+            <p>Correo: ${req.body.email} </p>
             </br >
             <p>Mensaje: </p>
-            <p>${req.body.message}</p>
+            <p>${req.body.message}</p
             </body>
             </html>
             `;
 
         const mailOptions = {
-            from: "contacto@iuhf.education", // TODO: email sender
-            to: "contacto@iuhf.education", // TODO: email receiver
+            from: "contacto@3dwkt.com", // TODO: email sender
+            to: "andre.calder98@gmail.com", // TODO: email receiver
             subject: "Nuevo Contacto Página",
             html: output
         }
