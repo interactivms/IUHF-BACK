@@ -27,7 +27,7 @@ exports.makeMail = async (req, res) => {
 
         const mailOptions = {
             from: "contacto@3dwkt.com", // TODO: email sender
-            to: "andre.calder98@gmail.com", // TODO: email receiver
+            to: "interactivms@gmail.com", // TODO: email receiver
             subject: "Nuevo Contacto Página",
             html: output
         }
